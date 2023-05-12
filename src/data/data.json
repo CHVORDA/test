@@ -1,0 +1,21 @@
+[
+    {
+        "id":1,
+        "name": "Avengers",
+        "desc": "The Avengers were a team of extraordinary individuals, with either superpowers or other special characteristics. Though primarily affiliated with the interests of the United States of America, the group's purpose was to protect global stability from inner or extraterrestrial threats.  ",
+        "url" :"https://images.immediate.co.uk/production/volatile/sites/3/2019/04/Avengers-Endgame-Banner-2-de7cf60.jpg?quality=90&webp=true&crop=93px,0px,1013px,675px&resize=1000,667"
+    },
+    {
+        "id":2,
+        "name": "Defenders",
+        "desc": "The Defenders are a set of superhero groups with rotating membership appearing in American comic books published by Marvel Comics. They are usually presented as a non-team of individualistic outsiders who, in their prior adventures, are known for following their own agendas. ",
+        "url" :"https://whatsondisneyplus.com/wp-content/uploads/2019/04/6F04B5CA-D1E9-49DC-9CB8-E44276C263DD.png"
+    },
+    {
+        "id":3,
+        "name": "Thunderbolts" ,
+        "desc": "The Thunderbolts are an antihero team appearing in American comic books published by Marvel Comics. The Thunderbolts were first presented, both to readers and to the Marvel Universe, as a group of super-powered figures who became heroes to help protect the world when the Avengers were declared dead.",
+        "url" :"https://legendary-digital-network-assets.s3.amazonaws.com/wp-content/uploads/2022/09/12115210/Who-makes-up-the-MCU-Thunderbolts-team-Valentina-red-guardian-Yelena-Belova-Bucky-Barnes-US-Agent-and-Taskmaster-high-res.jpeg"
+    }
+
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "name": "Tony Stark / Iron Man",
+        "place": "Avengers Mansion: 890 Fifth Avenue, Manhattan, New York, NY"
+    },
+    {
+        "id":2,
+        "name": "Matt Murdock / Daredevil",
+        "place": "Rand Tower (Iron Fist's headquarters): 36 Main Street, Manhattan, New York, NY"
+    },
+    {
+        "id":3,
+        "name": "Gen. Ross / Red Hulk",
+        "place": "Thunderbolts Mountain (former headquarters): Colorado Rocky Mountains, Colorado"
+    }
+]
