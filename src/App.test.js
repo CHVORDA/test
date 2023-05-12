@@ -1,6 +1,6 @@
 import React from "react";
 import { render, fireEvent } from "@testing-library/react";
-import App from "./App";
+import App from "../App";
 
 test("renders home page by default", () => {
   const { getByText } = render(<App />);
@@ -15,5 +15,3 @@ test("changes page on button click", () => {
   const galleryPage = getByText("This is the Gallery page");
   expect(galleryPage).toBeInTheDocument();
 });
-
-// Додайте інші тести для перевірки решти функціональності вашого компонента.
