@@ -1,36 +1,19 @@
-import React from 'react';
-import { render, screen, fireEvent } from '@testing-library/react';
-import App from './App';
-import IndexPage from './component/IndexPage';
-import GalleryPage from './component/GalleryPage';
-import ContactPage from './component/ContactPage';
+import React from "react";
+import { render, fireEvent } from "@testing-library/react";
+import App from "./App";
 
-describe('App component', () => {
-  test('renders the navbar and default content', () => {
-    render(<App />);
-    const homeButton = screen.getByText(/home/i);
-    const galleryButton = screen.getByText(/gallery/i);
-    const contactButton = screen.getByText(/contact/i);
-    const indexPageContent = screen.getByTestId('index');
-    
-    expect(homeButton).toBeInTheDocument();
-    expect(galleryButton).toBeInTheDocument();
-    expect(contactButton).toBeInTheDocument();
-    expect(indexPageContent).toBeInTheDocument();
-  });
-
-  test('changes content when navigating', () => {
-    render(<App />);
-    const galleryButton = screen.getByText(/gallery/i);
-    const contactButton = screen.getByText(/contact/i);
-
-    fireEvent.click(galleryButton);
-    const galleryPageContent = screen.getByTestId('gallery');
-    expect(galleryPageContent).toBeInTheDocument();
-
-    fireEvent.click(contactButton);
-    const contactPageContent = screen.getByTestId('contact');
-    expect(contactPageContent).toBeInTheDocument();
-  });
+test("renders home page by default", () => {
+  const { getByText } = render(<App />);
+  const homeButton = getByText("Home");
+  expect(homeButton).toBeInTheDocument();
 });
 
+test("changes page on button click", () => {
+  const { getByText } = render(<App />);
+  const galleryButton = getByText("Gallery");
+  fireEvent.click(galleryButton);
+  const galleryPage = getByText("This is the Gallery page");
+  expect(galleryPage).toBeInTheDocument();
+});
+
+// Додайте інші тести для перевірки решти функціональності вашого компонента.

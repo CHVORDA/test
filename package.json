@@ -2,6 +2,9 @@
   "name": "avengers",
   "version": "0.1.0",
   "private": true,
+  "presets": [
+    "@babel/preset-react"
+  ],
   "dependencies": {
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
